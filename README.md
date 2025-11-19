@@ -7,11 +7,10 @@
 ---
 
 ## 📖 Overview  
-The **Online Bookstore** is a full stack web application designed to make browsing, searching, and purchasing books simple and enjoyable.  
+**Page By Page Bookstore** is a full stack web application designed to make browsing, searching, and purchasing books simple and enjoyable.  
 Users can explore various categories such as Fiction, Non Fiction, Young Adult, and Academic. The shopping cart and checkout flow provide a smooth purchasing experience.
 
-A built in **admin panel** allows bookstore managers to add books, edit information, and maintain accurate stock levels.  
-:contentReference[oaicite:0]{index=0}
+A built in **admin panel** allows bookstore managers to add books, edit information, and maintain accurate stock levels.
 
 ---
 
@@ -19,7 +18,7 @@ A built in **admin panel** allows bookstore managers to add books, edit informat
 
 ### User Experience  
 - Browse books by category  
-- Dynamic book display directly from the database  
+- Dynamic books display directly from the database  
 - Add items to the cart  
 - Review cart items before checkout  
 - Fully responsive design
@@ -27,12 +26,11 @@ A built in **admin panel** allows bookstore managers to add books, edit informat
 ---
 
 ## 🛠 Admin Side  
-The admin dashboard provides everything needed for store management:  
+The admin dashboard provides everything needed for online bookstore management:  
 - Add new books with full details  
-- Edit book information  
+- Edit books information  
 - Update stock levels  
-- Real time reflection of changes on the user side  
-:contentReference[oaicite:1]{index=1}
+- Real time reflection of changes on the user side
 
 ---
 
@@ -40,8 +38,7 @@ The admin dashboard provides everything needed for store management:
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
-- **Architecture:** RESTful APIs  
-- **Hosting:** Any platform of your choice  
+- **Architecture:** RESTful APIs   
 
 ### Setup Notes  
 To run the backend correctly, make sure to complete the following steps:
