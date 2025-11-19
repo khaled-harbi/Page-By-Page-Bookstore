@@ -23,9 +23,7 @@ A built in **admin panel** allows bookstore managers to add books, edit informat
 - Review cart items before checkout  
 - Fully responsive design
 
----
-
-## 🛠 Admin Side  
+### Admin Side  
 The admin dashboard provides everything needed for online bookstore management:  
 - Add new books with full details  
 - Edit books information  
@@ -38,9 +36,11 @@ The admin dashboard provides everything needed for online bookstore management:
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
-- **Architecture:** RESTful APIs   
+- **Architecture:** RESTful APIs
 
-### Setup Notes  
+---
+
+## Setup Notes  
 To run the backend correctly, make sure to complete the following steps:
 
 #### 1. Create a `.env` file in the `backend` folder  
