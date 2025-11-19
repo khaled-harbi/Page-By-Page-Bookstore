@@ -52,7 +52,10 @@ MONGO_URI=mongodb://YOUR_LOCAL_IP:27017/bookstore
 Replace `YOUR_LOCAL_IP` with your own local address or database URL.
 
 #### 2. Install backend dependencies  
-Inside the `backend` folder, run: npm install
+Inside the `backend` folder, run:
+```
+npm install
+```
 This will install all required Node modules before running the server.
 
 ---
