@@ -63,10 +63,10 @@ This will install all required Node modules before running the server.
 
 
 #### 4. Import sample data such as `books.json` into MongoDB
-To load the books or users data into your local database, you need to import the file with MongoDB Compass:
+To load the `books` or `users` data into your local database, you need to import the file with MongoDB Compass:
 - Open MongoDB Compass
-- Create a new database named bookstore
-- Create a collection named "books" or "users"
+- Create a new database named `bookstore`
+- Create a collection named `books` or `users`
 - Click Import Data
 - Select the .json file
 
