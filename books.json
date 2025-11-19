@@ -1,0 +1,434 @@
+[{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce3d"
+  },
+  "title": "The Fault in Our Stars",
+  "author": "John Green",
+  "price": 12.99,
+  "category": "young-adult",
+  "description": "A touching story about two teenagers who fall in love while dealing with cancer, exploring love, loss, and the fragility of life.",
+  "imageUrl": "https://m.media-amazon.com/images/I/817tHNcyAgL.jpg",
+  "quantity": 15
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce3e"
+  },
+  "title": "The Hunger Games",
+  "author": "Suzanne Collins",
+  "price": 11.99,
+  "category": "young-adult",
+  "description": "In a brutal televised competition set in a dystopian future, Katniss Everdeen volunteers to take her sister's place and becomes a symbol of rebellion.",
+  "imageUrl": "https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 20
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce3f"
+  },
+  "title": "Divergent",
+  "author": "Veronica Roth",
+  "price": 10.99,
+  "category": "young-adult",
+  "description": "In a society divided into factions, Tris Prior discovers she is Divergent, not fitting into any one group, and uncovers a conspiracy that threatens her world.",
+  "imageUrl": "https://m.media-amazon.com/images/I/91bxBYl307L.jpg",
+  "quantity": 17
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce40"
+  },
+  "title": "The Maze Runner",
+  "author": "James Dashner",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "Thomas wakes up in a mysterious maze with no memory and must work with other boys to escape and learn the truth about who put them there.",
+  "imageUrl": "https://m.media-amazon.com/images/I/91Jra1QAMPL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 14
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce41"
+  },
+  "title": "Eleanor and Park",
+  "author": "Rainbow Rowell",
+  "price": 13.5,
+  "category": "young-adult",
+  "description": "Two misfit teens, Eleanor and Park, fall in love over comic books and mixtapes while navigating family problems and school bullying.",
+  "imageUrl": "https://m.media-amazon.com/images/I/71CY50T1sML._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 10
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce42"
+  },
+  "title": "Looking for Alaska",
+  "author": "John Green",
+  "price": 12.49,
+  "category": "young-adult",
+  "description": "Miles Halter leaves his safe life for a boarding school, where he meets the fascinating Alaska Young and is pulled into a world of love, loss, and questions.",
+  "imageUrl": "https://m.media-amazon.com/images/I/7127ZROAw5L._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 8
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce43"
+  },
+  "title": "Paper Towns",
+  "author": "John Green",
+  "price": 11.49,
+  "category": "young-adult",
+  "description": "After his adventurous neighbor Margo disappears, Quentin follows a series of clues she left behind and begins to question how well he ever knew her.",
+  "imageUrl": "https://m.media-amazon.com/images/I/91cF+8q10uL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 12
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce44"
+  },
+  "title": "The Perks of Being a Wallflower",
+  "author": "Stephen Chbosky",
+  "price": 10.49,
+  "category": "young-adult",
+  "description": "Shy freshman Charlie writes letters about his life as he experiences friendship, first love, trauma, and the struggle to feel truly understood.",
+  "imageUrl": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1511288703i/4327066.jpg",
+  "quantity": 9
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce45"
+  },
+  "title": "The Giver",
+  "author": "Lois Lowry",
+  "price": 8.99,
+  "category": "young-adult",
+  "description": "Jonas lives in a seemingly perfect community without pain or choice until he is chosen to receive the memories of the past and discovers the truth.",
+  "imageUrl": "https://m.media-amazon.com/images/I/81cJChEQjSL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 13
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce46"
+  },
+  "title": "Miss Peregrine's Home for Peculiar Children",
+  "author": "Ransom Riggs",
+  "price": 12.79,
+  "category": "young-adult",
+  "description": "After a family tragedy, Jacob discovers an orphanage of children with strange abilities and a hidden world filled with danger and mystery.",
+  "imageUrl": "https://m.media-amazon.com/images/I/91jJqk3McFL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 11
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce47"
+  },
+  "title": "My Hero Academia, Vol. 1",
+  "author": "Kohei Horikoshi",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "In a world where most people have superpowers called Quirks, quirkless student Izuku Midoriya meets his idol All Might and begins his journey to become a hero.",
+  "imageUrl": "https://m.media-amazon.com/images/I/81AjnD8nvHL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 18
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce48"
+  },
+  "title": "Attack on Titan, Vol. 1",
+  "author": "Hajime Isayama",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "Humanity lives behind massive walls to protect themselves from man-eating Titans, but a colossal Titan appears and changes everything for Eren Yeager.",
+  "imageUrl": "https://m.media-amazon.com/images/I/81qPzeEO5IL.jpg",
+  "quantity": 16
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce49"
+  },
+  "title": "Demon Slayer: Kimetsu no Yaiba, Vol. 1",
+  "author": "Koyoharu Gotouge",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "After demons slaughter his family and turn his sister Nezuko into a demon, Tanjiro Kamado joins the Demon Slayer Corps to find a cure and seek revenge.",
+  "imageUrl": "https://m.media-amazon.com/images/I/81ZNkhqRvVL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 19
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce4a"
+  },
+  "title": "Haikyu!!, Vol. 1",
+  "author": "Haruichi Furudate",
+  "price": 8.99,
+  "category": "young-adult",
+  "description": "Short but determined Shoyo Hinata dreams of becoming a top volleyball player and joins his high school team, where he must learn to work with his rival Kageyama.",
+  "imageUrl": "https://m.media-amazon.com/images/I/8125DI58M+L._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 14
+},
+{
+  "_id": {
+    "$oid": "691cf88f513c265eebbbce4b"
+  },
+  "title": "Jujutsu Kaisen, Vol. 1",
+  "author": "Gege Akutami",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "Yuji Itadori swallows a cursed finger to save his friends and becomes the host of a powerful curse, leading him to enroll in a school for jujutsu sorcerers.",
+  "imageUrl": "https://m.media-amazon.com/images/I/81TmHlRleJL.jpg",
+  "quantity": 15
+},
+{
+  "_id": {
+    "$oid": "670940e95c01a6030835db92"
+  },
+  "title": "Becoming",
+  "author": "Michelle Obama",
+  "price": 18.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/81h2gWPTYJL.jpg",
+  "category": "non-fiction",
+  "description": "A personal memoir by Michelle Obama, sharing her journey from her childhood in Chicago to becoming the First Lady of the United States, while exploring themes of identity and empowerment.",
+  "quantity": 2
+},
+{
+  "_id": {
+    "$oid": "670942fa5c01a6030835db94"
+  },
+  "title": "Harry Potter and the Philosopher Stone",
+  "author": "J.K. Rowling",
+  "price": 10.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/81YOuOGFCJL.jpg",
+  "category": "young-adult",
+  "description": "Harry Potter discovers he is a wizard and begins his magical education at Hogwarts, where he faces mysteries and the dark wizard Voldemort.",
+  "quantity": 0
+},
+{
+  "_id": {
+    "$oid": "670943085c01a6030835db96"
+  },
+  "title": "Harry Potter and the Chamber of Secrets",
+  "author": "J.K. Rowling",
+  "price": 9.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/91HHqVTAJQL.jpg",
+  "category": "young-adult",
+  "description": "In his second year at Hogwarts, Harry faces new dangers as a dark force targets students, leading to the discovery of the Chamber of Secrets.",
+  "quantity": 0
+},
+{
+  "_id": {
+    "$oid": "6709432e5c01a6030835db98"
+  },
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "author": "J.K. Rowling",
+  "price": 11.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/81NQA1BDlnL.jpg",
+  "category": "young-adult",
+  "description": "Harry learns about Sirius Black, an escaped prisoner who may have ties to his family's past, while facing new adventures at Hogwarts.",
+  "quantity": 0
+},
+{
+  "_id": {
+    "$oid": "670bdcd686026bcb91e411e3"
+  },
+  "title": "Harry Potter and the Goblet of Fire",
+  "author": "J.K. Rowling",
+  "price": 29.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/81zeKRGCPpL._AC_UF1000,1000_QL80_.jpg",
+  "category": "young-adult",
+  "description": "Harry is unexpectedly entered into the dangerous Triwizard Tournament, while dark forces begin to rise again.",
+  "quantity": 0
+},
+{
+  "_id": {
+    "$oid": "67189d8dcc8a54fbf16b443a"
+  },
+  "title": "My Hero Academia, Volume 2",
+  "author": "Kohei Horikoshi",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "The U.A. students face their first real threat when a group of villains attack during training. Izuku and his classmates must quickly adapt to survive this unexpected challenge.",
+  "imageUrl": "https://m.media-amazon.com/images/I/81ctOuD4lIL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67189e66cc8a54fbf16b4449"
+  },
+  "title": "My Hero Academia, Volume 3",
+  "author": "Kohei Horikoshi",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "The students of U.A. continue their fight against the invading villains. Izuku and his friends must work together to defend themselves as the battle intensifies, revealing the true strength of their enemies.",
+  "imageUrl": "https://m.media-amazon.com/images/I/815IWVldmFL._AC_UF1000,1000_QL80_.jpg",
+  "quantity": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6718a02e6e6451d0e66a11da"
+  },
+  "title": "Educated",
+  "author": "Tara Westover",
+  "price": 13.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/81WojUxbbFL._AC_UL640_FMwebp_QL65_.jpg",
+  "category": "non-fiction",
+  "description": "A memoir about a young woman who grows up in a survivalist family in rural Idaho and escapes to pursue education, eventually earning a PhD from Cambridge University.",
+  "quantity": 7
+},
+{
+  "_id": {
+    "$oid": "6718a2996e6451d0e66a11e6"
+  },
+  "title": "Thinking, Fast and Slow",
+  "author": "Daniel Kahneman",
+  "price": 13.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/61fdrEuPJwL.jpg",
+  "category": "non-fiction",
+  "description": "Nobel laureate Daniel Kahneman explores the two systems of thinking that drive decisions: the fast, intuitive side and the slow, logical side."
+},
+{
+  "_id": {
+    "$oid": "6718a3f26e6451d0e66a11ea"
+  },
+  "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+  "author": "Brian Christian and Tom Griffiths",
+  "price": 13.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/81EI+ELW9EL._AC_UF1000,1000_QL80_.jpg",
+  "category": "academic",
+  "description": "This book explores how algorithms, used in computing, can help us make better everyday decisions by applying computer science principles."
+},
+{
+  "_id": {
+    "$oid": "6718a4596e6451d0e66a11ec"
+  },
+  "title": "The Emperor of All Maladies: A Biography of Cancer",
+  "author": "Siddhartha Mukherjee",
+  "price": 15.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/610KnvrqsgL._AC_UF1000,1000_QL80_.jpg",
+  "category": "academic",
+  "description": "A Pulitzer Prize-winning book that traces the history of cancer from its first recorded appearances thousands of years ago to modern-day treatments."
+},
+{
+  "_id": {
+    "$oid": "6718a4a06e6451d0e66a11ee"
+  },
+  "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+  "author": "Susan Cain",
+  "price": 12.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/710KQAE6d5L._AC_UF1000,1000_QL80_.jpg",
+  "category": "non-fiction",
+  "description": "Susan Cain delves into the history and science of introversion, showing how it has been misunderstood and undervalued in modern society."
+},
+{
+  "_id": {
+    "$oid": "6718a6626e6451d0e66a11f0"
+  },
+  "title": "Superintelligence: Paths, Dangers, Strategies",
+  "author": "Nick Bostrom",
+  "price": 17.49,
+  "imageUrl": "https://m.media-amazon.com/images/I/71UvMcdcE9L._AC_UF1000,1000_QL80_.jpg",
+  "category": "academic",
+  "description": "Bostrom explores the potential risks and challenges of developing artificial intelligence that surpasses human intelligence, and the ethical considerations it raises."
+},
+{
+  "_id": {
+    "$oid": "6718a6e86e6451d0e66a11f2"
+  },
+  "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+  "author": "Matthew Walker",
+  "price": 14.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/814sf-LvR0L._AC_UF894,1000_QL80_.jpg",
+  "category": "academic",
+  "description": "Matthew Walker dives into the science of sleep, explaining why sleep is so vital to our mental and physical health, and how it affects our lives."
+},
+{
+  "_id": {
+    "$oid": "6718a74a6e6451d0e66a11f4"
+  },
+  "title": "The Man Who Knew Infinity: A Life of the Genius Ramanujan",
+  "author": "Robert Kanigel",
+  "price": 15.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/81gw3X-hWCL._AC_UF894,1000_QL80_.jpg",
+  "category": "academic",
+  "description": "The biography of Srinivasa Ramanujan, an Indian mathematician whose groundbreaking theories were developed with minimal formal education, yet revolutionized the field."
+},
+{
+  "_id": {
+    "$oid": "6718a8c96e6451d0e66a11f6"
+  },
+  "title": "The Innovators: How a Group of Hackers, Geniuses, and Geeks Created the Digital Revolution",
+  "author": "Walter Isaacson",
+  "price": 15.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/71r2IY98HwL._AC_UF894,1000_QL80_.jpg",
+  "category": "non-fiction",
+  "description": "Isaacson tells the story of the pioneers of the digital revolution, from the invention of the computer to the development of the internet, highlighting the collaboration that made these innovations possible."
+},
+{
+  "_id": {
+    "$oid": "6718a9756e6451d0e66a11f8"
+  },
+  "title": "Are We Smart Enough to Know How Smart Animals Are?",
+  "author": "Frans de Waal",
+  "price": 16.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/71W-U-8I0kL._AC_UF894,1000_QL80_.jpg",
+  "category": "non-fiction",
+  "description": "In this book, primatologist Frans de Waal explores the intelligence of animals and challenges our understanding of their cognitive abilities, showing how humans often underestimate the mental capacities of other species."
+},
+{
+  "_id": {
+    "$oid": "6718aabb6e6451d0e66a11fa"
+  },
+  "title": "The Book of Why: The New Science of Cause and Effect",
+  "author": "Judea Pearl and Dana Mackenzie",
+  "price": 17.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/71TnPu87AqL._AC_UF1000,1000_QL80_.jpg",
+  "category": "academic",
+  "description": "Judea Pearl revolutionizes our understanding of cause and effect, introducing the new science of causal reasoning and its application to AI, big data, and statistics."
+},
+{
+  "_id": {
+    "$oid": "6718ab2f6e6451d0e66a11fc"
+  },
+  "title": "Where the Crawdads Sing",
+  "author": "Delia Owens",
+  "price": 14.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/61EGYH5EGYL._AC_UF1000,1000_QL80_.jpg",
+  "category": "fiction",
+  "description": "A beautifully written mystery and coming-of-age story about Kya, an abandoned girl who grows up in the marshlands of North Carolina and becomes the center of a murder investigation."
+},
+{
+  "_id": {
+    "$oid": "6718ab5a6e6451d0e66a11fe"
+  },
+  "title": "The Night Circus",
+  "author": "Erin Morgenstern",
+  "price": 12.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/71+whvJjE3L._AC_UF1000,1000_QL80_.jpg",
+  "category": "fiction",
+  "description": "A magical competition between two young illusionists is the center of this enchanting novel, set in a mysterious circus that only opens at night."
+},
+{
+  "_id": {
+    "$oid": "6718b1516e6451d0e66a1202"
+  },
+  "title": "Six of Crows",
+  "author": "Leigh Bardugo",
+  "price": 14.99,
+  "imageUrl": "https://m.media-amazon.com/images/I/71VXRrdiu1L._AC_UF894,1000_QL80_.jpg",
+  "category": "fiction",
+  "description": "In the Grishaverse world, six dangerous outcasts are offered the chance of a lifetime: a heist that could make them rich beyond their wildest dreams, but only if they survive."
+},
+{
+  "_id": {
+    "$oid": "6718cb19cc8a54fbf16b4502"
+  },
+  "title": "My Hero Academia, Volume 4",
+  "author": "Kohei Horikoshi",
+  "price": 9.99,
+  "category": "young-adult",
+  "description": "The U.A. Sports Festival begins, a major event where all the students get to show off their Quirks. Izuku Midoriya struggles to keep up with his classmates in the grueling competition while continuing to learn how to control his newfound power, One For All. With fierce rivals and high stakes, this is a pivotal moment for the young heroes in training.",
+  "imageUrl": "https://m.media-amazon.com/images/I/91Os+dWdLdL._AC_UF894,1000_QL80_.jpg",
+  "quantity": 3,
+  "__v": 0
+}]
