@@ -1,5 +1,5 @@
 # 📚 ONLINE BOOKSTORE  
-*By Khaled Alharbi and Team*
+*By Khaled Alharbi*
 
 **Live Demo:**  
 [▶ Visit the Online Bookstore](YOUR_LIVE_LINK_HERE)
