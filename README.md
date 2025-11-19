@@ -43,7 +43,14 @@ The admin dashboard provides everything needed for online bookstore management:
 ## Setup Notes  
 To run the backend correctly, make sure to complete the following steps:
 
-#### 1. Create a `.env` file in the `backend` folder  
+#### 1. Install required software
+Before running the backend, make sure you have the following installed:
+a. Node.js
+b. MongoDB Community Server
+c. MongoDB Compass (optional but recommended)
+Used to easily view or import your database data.
+
+#### 2. Create a `.env` file in the `backend` folder  
 This file must contain your MongoDB connection string.
 Use this format as an example:
 ```
@@ -51,12 +58,29 @@ MONGO_URI=mongodb://YOUR_LOCAL_IP:27017/bookstore
 ```
 Replace `YOUR_LOCAL_IP` with your own local address or database URL.
 
-#### 2. Install backend dependencies  
+#### 3. Install backend dependencies  
 Inside the `backend` folder, run:
 ```
 npm install
 ```
 This will install all required Node modules before running the server.
+
+
+#### 4. Import sample data such as (books.json) into MongoDB
+To load the books or users data into your local database, you need to import the file with MongoDB Compass:
+- Open MongoDB Compass
+- Create a new database named bookstore
+- Create a collection named "books" or "users"
+- Click Import Data
+- Select the .json file
+
+#### 5. Start the backend server
+Inside the `backend` folder, run:
+```
+node server.js
+```
+#### 6. Open the project
+Once the server is running, simply open the `index.html` file from the project folder in your browser.
 
 ---
 
