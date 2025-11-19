@@ -41,11 +41,11 @@ The admin dashboard provides everything needed for online bookstore management:
 To run the backend correctly, make sure to complete the following steps:
 
 #### 1. Install required software
-Before running the backend, make sure you have the following installed:
-a. Node.js
-b. MongoDB Community Server
-c. MongoDB Compass (optional but recommended)
-Used to easily view or import your database data.
+Before running the backend, make sure you have the following installed:  
+a. Node.js  
+b. MongoDB Community Server  
+c. MongoDB Compass (optional but recommended)  
+Used to easily view or import your database data.  
 
 #### 2. Create a `.env` file in the `backend` folder  
 This file must contain your MongoDB connection string.
