@@ -1,9 +1,6 @@
 # 📚 Page By Page Online Bookstore  
 *By Khaled Alharbi*
 
-**Live Demo:**  
-[▶ Visit PBP Bookstore](YOUR_LIVE_LINK_HERE)
-
 ---
 
 ## 📖 Overview  
