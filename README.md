@@ -2,7 +2,7 @@
 *By Khaled Alharbi*
 
 **Live Demo:**  
-[▶ Visit the Online Bookstore](YOUR_LIVE_LINK_HERE)
+[▶ Visit PBP Bookstore](YOUR_LIVE_LINK_HERE)
 
 ---
 
