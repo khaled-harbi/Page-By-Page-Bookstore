@@ -68,7 +68,7 @@ This will install all required Node modules before running the server.
 </p>
 
 <p align="center">
-  <img src="books-preview1.png" alt="Books Preview 1" width="45% height="400px">
+  <img src="books-preview1.png" alt="Books Preview 1" width="45%">
   <img src="books-preview2.png" alt="Books Preview 2" width="45%">
 </p>
 
