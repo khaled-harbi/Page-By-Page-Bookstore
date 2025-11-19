@@ -45,7 +45,10 @@ To run the backend correctly, make sure to complete the following steps:
 
 #### 1. Create a `.env` file in the `backend` folder  
 This file must contain your MongoDB connection string.
-Use this format as an example: MONGO_URI=mongodb://YOUR_LOCAL_IP:27017/bookstore
+Use this format as an example:
+```
+MONGO_URI=mongodb://YOUR_LOCAL_IP:27017/bookstore
+```
 Replace `YOUR_LOCAL_IP` with your own local address or database URL.
 
 #### 2. Install backend dependencies  
