@@ -45,7 +45,6 @@ Before running the backend, make sure you have the following installed:
 a. Node.js  
 b. MongoDB Community Server  
 c. MongoDB Compass (optional but recommended)  
-Used to easily view or import your database data.  
 
 #### 2. Create a `.env` file in the `backend` folder  
 This file must contain your MongoDB connection string.
