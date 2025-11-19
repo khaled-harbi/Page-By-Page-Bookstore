@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - PBP Bookstore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="admin-body">
+    <h1 id="admin-header">Admin Panel</h1>
+    <button id="admin-go-home-button" class="btn-home">Back to Home Page</button>
+
+    <h2 id="admin-add-book-header">Add a New Book</h2>
+    <form id="admin-add-book-form">
+        <label for="admin-title">Book Title</label>
+        <input type="text" id="admin-title" name="title" required>
+    
+        <label for="admin-author">Author</label>
+        <input type="text" id="admin-author" name="author" required>
+    
+        <label for="admin-price">Price</label>
+        <input type="number" id="admin-price" name="price" step="0.01" required>
+    
+        <label for="admin-category">Category</label>
+        <input type="text" id="admin-category" name="category" required>
+    
+        <label for="admin-description">Description</label>
+        <textarea id="admin-description" name="description"></textarea>
+    
+        <label for="admin-imageUrl">Image URL</label>
+        <input type="text" id="admin-imageUrl" name="imageUrl" required>
+    
+        <label for="admin-quantity">Quantity</label>
+        <input type="number" id="admin-quantity" name="quantity" required>
+    
+        <!-- Add button for new book -->
+        <button id="admin-add-book-btn" type="submit">Add Book</button>
+    </form>
+    
+    <h2 id="admin-current-books-header">Current Books</h2>
+    <div id="admin-book-list"></div>
+    
+    <script src="admin.js"></script>
+</body>
+</html>

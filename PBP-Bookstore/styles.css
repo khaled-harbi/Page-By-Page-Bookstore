@@ -1,0 +1,479 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+    background-color: #2c3e50; 
+    border-bottom: 3px solid #e67e22; 
+}
+
+.custom-navbar .navbar-brand, 
+.custom-navbar .nav-link {
+    color: #ecf0f1 !important; 
+}
+
+.custom-navbar .navbar-brand:hover, 
+.custom-navbar .nav-link:hover {
+    color: #e67e22 !important; 
+}
+
+/* Header Section */
+.custom-header {
+    background-color: #34495e; 
+    color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+.custom-header h1 {
+    font-size: 3.5rem; 
+    font-weight: 700; 
+    letter-spacing: 2px; 
+}
+.custom-header p {
+    font-size: 1.5rem; 
+    color: #bdc3c7; 
+}
+
+/* Book Card Styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+    background-color: #ffffff; 
+    color: #333; 
+    border: 1px solid #ddd; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+.col-md-4 {
+    margin-bottom: 30px; /* Add space between the rows of cards */
+}
+
+.card-body {
+    flex-grow: 1;  /* Ensures the body of the card grows to fill available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card img {
+    height: 250px;
+    object-fit: cover; /* Ensure images don't stretch */
+    border-bottom: 2px solid #e67e22; 
+}
+.card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+.card-title {
+    min-height: 50px; 
+    overflow: visible;
+    white-space: normal; /* Keep title on one line */
+    font-weight: 600; 
+}
+.card-text {
+    font-size: 1rem; 
+    color: #7f8c8d; 
+}
+.card-body .btn-primary {
+    margin-top: auto;  /* Pushes the button to the bottom */
+}
+.btn-primary {
+    background-color: #e67e22; 
+    border: none;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.btn-primary:hover {
+    background-color: #d35400; 
+}
+.book-description {
+    max-height: 60px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+
+.btn-see-more-description {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: inherit; 
+    margin-top: auto;
+}
+
+.btn-see-more-description:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Category Section */
+section h2 {
+    color: #2c3e50; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#cart-items {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Cart container shadow */
+    margin-top: 20px;
+}
+
+#cart-items ul {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0;
+}
+
+#cart-items li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+#cart-items li:last-child {
+    border-bottom: none; 
+}
+
+.cart-item-info {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item-image {
+    width: 50px;
+    height: 70px;
+    object-fit: cover; /* Ensure images retain their aspect ratio */
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.cart-item-info div {
+    margin-left: 15px;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+}
+.btn-danger:hover {
+    background-color: #c0392b;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#sign-up-form, #sign-in-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#sign-up-form input, #sign-in-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #e67e22;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
+
+/* Checkout page styling */
+#checkout-button{
+    border: none;
+    background-color: #4CAF50;
+    position: relative;
+    left: 1056px;
+    margin: 15px;
+}
+.btn-order {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-order:hover {
+    background-color: #45a049;
+}
+
+#order-success {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#order-success h2 {
+    color: #4CAF50;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item-image {
+    width: 50px;
+    height: 75px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-back-home-bottom {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn-back-home-bottom:hover {
+    background-color: #218838;
+}
+
+.see-more-inline {
+    display: inline;
+}
+
+.btn-see-more {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    border: none;
+    padding: 0;
+    display: inline;
+    font-size: inherit;  
+}
+
+.btn-see-more:hover {
+    text-decoration: underline;
+}
+/* General Page Styling */
+#admin-body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#admin-add-book-header{
+    text-align: center;
+}
+
+/* Header Styling */
+#admin-header {
+    background-color: #2c3e50; 
+    color: #ecf0f1; 
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #e67e22; 
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form Container */
+#admin-add-book-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between fields */
+}
+
+/* Form Field Group */
+.admin-book-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Labels */
+.admin-book-field label {
+    flex: 1; /* Labels take up equal space */
+    text-align: right; 
+    padding-right: 10px; 
+    font-weight: bold;
+    color: #2c3e50; 
+}
+
+/* Input Fields */
+#admin-add-book-form input,
+#admin-add-book-form textarea,
+.admin-book-title,
+.admin-book-author,
+.admin-book-price,
+.admin-book-category,
+.admin-book-description,
+.admin-book-quantity,
+.admin-book-imageUrl {
+    flex: 2; /* Inputs take up more space than labels */
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e67e22; 
+    border-radius: 4px;
+    background-color: #ecf0f1; 
+    box-sizing: border-box;
+}
+
+.admin-book-field textarea {
+    resize: vertical; /* Allow textarea to be resizable vertically */
+}
+
+/* Button Styling */
+button {
+    background-color: #e67e22; 
+    border: 2px solid #e67e22;
+    color: #ffffff; 
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; 
+}
+
+button:hover {
+    background-color: #d35400; 
+}
+
+/* Current Books Section */
+#admin-current-books-header {
+    text-align: center;
+    color: #2c3e50; 
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#book-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling for each book item */
+.admin-book-item {
+    background-color: #ffffff; 
+    padding: 20px;
+    border: 5px solid black; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.admin-book-item img {
+    max-width: 150px;
+    max-height: 200px;
+}
+
+/* Styling for Remove and Save Buttons */
+.admin-remove-btn,
+.admin-save-btn {
+    width: 100px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.admin-remove-btn {
+    background-color: #e74c3c;
+}
+
+.admin-remove-btn:hover {
+    background-color: #c0392b;
+}
+
+.admin-save-btn {
+    background-color: #e67e22;
+}
+
+.admin-save-btn:hover {
+    background-color: #d35400;
+}
+
+
+
+
+
+

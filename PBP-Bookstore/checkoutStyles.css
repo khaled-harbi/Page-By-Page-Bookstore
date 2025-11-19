@@ -1,0 +1,213 @@
+/* General Page Styling for Checkout */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+h1 {
+    background-color: #2c3e50; /* Dark navy */
+    color: #ecf0f1; /* Light text */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #e67e22; /* Orange accent border */
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Back to Home Button */
+.btn-back-home-bottom {
+    position: relative;
+    background-color: #e67e22;
+    border: 2px solid #e67e22;
+    color: white;
+    padding: 8px 15px;
+    font-size: 14px; 
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back-home-bottom:hover {
+    background-color: #d35400;
+}
+
+
+/* Checkout Form Styling */
+#checkout-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 50px; 
+}
+
+#checkout-form label {
+    font-weight: bold;
+    color: #2c3e50; 
+    text-align: left;
+}
+
+#checkout-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 2px solid #e67e22;
+    border-radius: 4px;
+    background-color: #ecf0f1;
+}
+
+/* Order Button */
+.btn-order {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: center; 
+}
+
+.btn-order:hover {
+    background-color: #d35400;
+}
+
+/* Order Success Message */
+#order-success {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#order-success h2 {
+    color: #4CAF50;
+}
+
+#order-number {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Cart Summary */
+#cart-summary {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#cart-items li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart-items li:last-child {
+    border-bottom: none;
+}
+
+/* Cart Total */
+#cart-total {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Cart Item Styling */
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item-image {
+    width: 50px;
+    height: 75px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.cart-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Success Message Styles */
+#order-success {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#order-success h2 {
+    color: #4CAF50;
+}
+
+#order-number {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Button Styling */
+button {
+    background-color: #e67e22; 
+    border: 2px solid #e67e22;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; 
+}
+
+button:hover {
+    background-color: #d35400; 
+}
+
+/* Order Success Message */
+#order-success {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#order-success h2 {
+    color: #4CAF50;
+}
+
+#order-number {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Remove Conflicting Checkout Button Styling */
+#checkout-button {
+    border: none;
+    background-color: #4CAF50;
+    position: relative;
+    left: 0; /* Reset any previous conflicting styles */
+    margin: 15px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#checkout-button:hover {
+    background-color: #45a049;
+}

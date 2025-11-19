@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBP Bookstore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">PBP Bookstore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cart">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="signup-link" href="#" onclick="openSignUpModal()">Sign Up</a> <!-- Sign Up/Log Out Link -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="user-link" href="#" onclick="openSignInModal()">Sign In</a> <!-- Sign In Link -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <header class="custom-header">
+        <h1>Page By Page Bookstore</h1>
+        <p>Find your next favorite book here!</p>
+    </header>
+
+    <!-- Book Categories Section -->
+    <section id="categories" class="container mt-5">
+        <h2 class="text-center mb-4">Browse by Categories</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="fiction.jpg" class="card-img-top" alt="Fiction">
+                    <div class="card-body">
+                        <h5 class="card-title">Fiction</h5>
+                        <a href="#" class="btn btn-primary" onclick="filterBooks('fiction')">View Fiction Books</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="nonfiction.jpg" class="card-img-top" alt="Non-Fiction">
+                    <div class="card-body">
+                        <h5 class="card-title">Non-Fiction</h5>
+                        <a href="#" class="btn btn-primary" onclick="filterBooks('non-fiction')">View Non-Fiction Books</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="academic.jpg" class="card-img-top" alt="Academic">
+                    <div class="card-body">
+                        <h5 class="card-title">Academic</h5>
+                        <a href="#" class="btn btn-primary" onclick="filterBooks('academic')">View Academic Books</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="youngadult.jpg" class="card-img-top" alt="Young Adult">
+                    <div class="card-body">
+                        <h5 class="card-title">Young Adult</h5>
+                        <a href="#" class="btn btn-primary" onclick="filterBooks('young-adult')">View Young Adult Books</a>
+                    </div>
+                </div>
+            </div>
+                        
+        </div>
+    </section>
+
+    <!-- Available Books Section -->
+    <section id="books" class="container mt-5">
+        <h2 class="text-center mb-4">Available Books</h2>
+        <div class="row" id="books-container">
+            <!-- Books will be dynamically injected here -->
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart" class="container mt-5">
+        <h2 class="text-center mb-4">Your Cart</h2>
+        <div id="cart-items" class="text-center">
+            <p>No items in cart yet.</p>
+        </div>
+    </section>
+
+    <!-- Sign Up Modal -->
+    <div id="signUpModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('signUpModal')">&times;</span>
+        <h2>Sign Up</h2>
+        <form id="sign-up-form">
+          <label for="name">Name</label>
+          <input type="text" id="sign-up-name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="sign-up-email" name="email" required>
+          <label for="password">Password</label>
+          <input type="password" id="sign-up-password" name="password" required>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Sign In Modal -->
+    <div id="signInModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('signInModal')">&times;</span>
+        <h2>Sign In</h2>
+        <form id="sign-in-form">
+          <label for="email">Email</label>
+          <input type="email" id="sign-in-email" name="email" required>
+          <label for="password">Password</label>
+          <input type="password" id="sign-in-password" name="password" required>
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+    </div>
+    
+    <!-- checkout button-->
+    <button id="checkout-button" style="display:none;" class="btn-checkout">Checkout</button>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
