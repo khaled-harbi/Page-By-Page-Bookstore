@@ -63,17 +63,24 @@ This will install all required Node modules before running the server.
 ## 📷 Screenshots  
 
 <p align="center">
-  <img src="screenshot1.png" alt="Homepage" width="45%">
-  <img src="screenshot2.png" alt="Category Page" width="45%">
+  <img src="home-page.png" alt="Homepage" width="45%">
+  <img src="category-page.png" alt="Category Page" width="45%">
 </p>
 
 <p align="center">
-  <img src="screenshot3.png" alt="Book Details" width="45%">
-  <img src="screenshot4.png" alt="Admin Panel" width="45%">
+  <img src="books-preview1.png" alt="Books Preview 1" width="45%">
+  <img src="books-preview2.png" alt="Books Preview 2" width="45%">
 </p>
 
 <p align="center">
-  <img src="screenshot5.png" alt="Cart Page" width="45%">
+  <img src="admin-panel1.png" alt="Admin Panel 1" width="45%">
+  <img src="admin-panel2.png" alt="Admin Panel 2" width="45%">
+</p>
+
+<p align="center">
+  <img src="cart-section.png" alt="Cart Section" width="45%">
+  <img src="checkout-page.png" alt="Checkout Page" width="45%">
+  <img src="order-placed.png" alt="Order Placed" width="45%">
 </p>
 
 ---
